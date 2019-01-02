@@ -1,0 +1,105 @@
+"category","code","title","image","feature","feature","feature","feature","feature","feature","feature","feature","feature","feature","feature","feature"
+"","Ex. Id","Name","","Series","Rarity","Colour","Attack","Amour","Health","Sig. Card","Sig. Of","Cost","Skill","Effect","SigCard ID"
+"Hero","61","Abaddon","images/ListOfItemsFiles/61.png","Base Set","Unknown","Green","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","1","Axe","images/ListOfItemsFiles/1.png","Base Set","Unknown","Red","7","2","11","Berserker's Call","Unknown","Unknown","Unknown","Unknown","3"
+"Hero","87","Beastmaster","images/ListOfItemsFiles/87.png","Base Set","Unknown","Red","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","10","Bristleback","images/ListOfItemsFiles/10.png","Base Set","Unknown","Red","8","0","12","Viscous Nasal Goo","Unknown","Unknown","Barrroom Brawler Reactive ability Modify Bristleback with +2 armor after a hero blocking it dies.","Unknown","8"
+"Hero","92","Centaur Warrunner","images/ListOfItemsFiles/92.png","Base Set","Unknown","Red","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","100","Chen","images/ListOfItemsFiles/100.png","Base Set","Unknown","Green","4","0","9","Hand of God","Unknown","Unknown","Unknown","Unknown","101"
+"Hero","11","Crystal Maiden","images/ListOfItemsFiles/11.png","Base Set","Unknown","Blue","2","0","5","Frostbite","Unknown","Unknown","Arcane Aura Continuous effect Return 2 mana for every spell cast.","Unknown","51"
+"Hero","67","Drow Ranger","images/ListOfItemsFiles/67.png","Base Set","Unknown","Green","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","69","Earthshaker","images/ListOfItemsFiles/69.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","96","Kanna","images/ListOfItemsFiles/96.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","5","Legion Commander","images/ListOfItemsFiles/5.png","Base Set","Unknown","Red","6","1","8","Unknown","Unknown","Unknown","Moment of Courage Continuous effect Retaliate 2.","Unknown","-1"
+"Hero","17","Luna","images/ListOfItemsFiles/17.png","Base Set","Unknown","Blue","3","0","8","Eclipse","Unknown","Unknown","Lucent Beam Reactive ability Before the action phase, deal 1 piercing damage to a random enemy and add a charge to each Eclipse card in your hand or deck.","Unknown","70"
+"Hero","15","Lycan","images/ListOfItemsFiles/15.png","Base Set","Unknown","Green","4","0","10","Savage Wolf","Unknown","Unknown","Feral Impulse Continuous effect Lycan's allied neighbours have +2 attack.","Unknown","22"
+"Hero","93","Mazzie","images/ListOfItemsFiles/93.png","Base Set","Unknown","Red","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","97","Meepo","images/ListOfItemsFiles/97.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","73","Necrophos","images/ListOfItemsFiles/73.png","Base Set","Unknown","Black","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","74","Ogre Magi","images/ListOfItemsFiles/74.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","13","Phantom Assassin","images/ListOfItemsFiles/13.png","Base Set","Unknown","Black","6","0","8","Coup de Grace","Unknown","Unknown","Efficient Killer Continuous effect Phantom Assassin deals +4 damage when attacking a hero.","Unknown","26"
+"Hero","91","Pugna","images/ListOfItemsFiles/91.png","Base Set","Unknown","Red","6","0","9","Unknown","Unknown","Unknown","Nether Blast Active ability Condemn a random enemy improvement.","Unknown","-1"
+"Hero","14","Rix","images/ListOfItemsFiles/14.png","Base Set","Unknown","Green","3","0","7","Truth to Power","Unknown","Unknown","Relentless Rebel Continuous effect Rapid Deployment.","Unknown","44"
+"Hero","77","Sniper","images/ListOfItemsFiles/77.png","Base Set","Unknown","Black","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","12","Sorla Khan","images/ListOfItemsFiles/12.png","Base Set","Unknown","Black","8","0","6","Assault Ladders","Unknown","Unknown","Warmonger Continuous effect Solra Khan deals +4 damage when attacking a tower.","Unknown","9"
+"Hero","18","Sven","images/ListOfItemsFiles/18.png","Base Set","Unknown","Red","5","0","11","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","94","Tidehunter","images/ListOfItemsFiles/94.png","Base Set","Unknown","Red","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","95","Timbersaw","images/ListOfItemsFiles/95.png","Base Set","Unknown","Red","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","79","Ursa","images/ListOfItemsFiles/79.png","Base Set","Unknown","Red","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","80","Venomancer","images/ListOfItemsFiles/80.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","Unknown","Unknown","Unknown","-1"
+"Hero","16","Zeus","images/ListOfItemsFiles/16.png","Base Set","Unknown","Blue","3","0","7","Thunder God's Wrath","Unknown","Unknown","Static Field Reactive ability Deal 1 piercing damage to Zeus's enemy neighbors after you play a blue spell.","Unknown","78"
+"Creep","105","Disciple of Nevermore","images/ListOfItemsFiles/105.png","Unknown","Common","Unknown","4","-2","4","Unknown","Unknown","Unknown","??? Passive ability Other allies have +2 Attack and -2 Armor.","Unknown",
+"Creep","23","Emissary of the Quorum","images/ListOfItemsFiles/23.png","Unknown","Unknown","Unknown","1","2","10","Unknown","Unknown","Unknown","Mysterious Benefactor Active ability Modify allies with +2 attack and +1 health.","Unknown",
+"Creep","21","Melee Dire Creep","images/ListOfItemsFiles/21.png","Unknown","Unknown","Unknown","2","0","4","Unknown","Unknown","Unknown","Unknown","Unknown",
+"Creep","20","Melee Radiant Creep","images/ListOfItemsFiles/20.png","Unknown","Unknown","Unknown","2","0","4","Unknown","Unknown","Unknown","Unknown","Unknown",
+"Creep","86","Ravenhook","images/ListOfItemsFiles/86.png","Unknown","Unknown","Unknown","3","0","6","Unknown","Unknown","Unknown","Repossess ??? Condemn a random item equipped by the unit blocking ravenhook, get gold equal to the base cost of that item.","Unknown",
+"Creep","6","Rebel Decoy","images/ListOfItemsFiles/6.png","Unknown","Unknown","Unknown","2","0","3","Unknown","Unknown","Unknown","Distract Active ability Swap Rebel Decoy with another ally.","Unknown",
+"Creep","106","Red Mist Pillager","images/ListOfItemsFiles/106.png","Unknown","Uncommon","Unknown","4","0","2","Unknown","Unknown","Unknown","??? Passive ability After the combat phase, if Red Mist Pillager dealt battle damage to a tower this round, summon a Red Mist Pillager.","Unknown",
+"Creep","22","Savage Wolf","images/ListOfItemsFiles/22.png","Unknown","Unknown","Unknown","3","0","3","Unknown","Unknown","Unknown","Savage Wolf Reactive ability Modify Savage Wolf with +1 Attack and +2 Health after the combat phase.","Unknown",
+"Creep","83","Thunderhide Pack","images/ListOfItemsFiles/83.png","Unknown","Common","Unknown","14","0","14","Unknown","Unknown","Unknown","Unknown","Unknown",
+"Creep","24","Untested Grunt","images/ListOfItemsFiles/24.png","Unknown","Unknown","Unknown","4","0","2","Unknown","Unknown","Unknown","Unknown","Unknown",
+"Spell","50","Act of Defiance","images/ListOfItemsFiles/50.png","Base Set","Unknown","Green","","","","Unknown","Unknown","4 Mana","Unknown","Modify allied creeps with +2 Attack and +1 Armor.",
+"Spell","60","Annihilation","images/ListOfItemsFiles/60.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","6 Mana","Unknown","Condemn all units.",
+"Spell","62","Aphotic Shield","images/ListOfItemsFiles/62.png","Base Set","Unknown","Green","","","","Unknown","Unknown","2 Mana","Unknown","???",
+"Spell","63","Assassin's Shade","images/ListOfItemsFiles/63.png","Base Set","Unknown","Black","","","","Unknown","Unknown","7 Mana","Unknown","???",
+"Spell","9","Assault Ladders","images/ListOfItemsFiles/9.png","Base Set","Uncommon","Black","","","","Unknown","Sorla Khan","3 Mana","Unknown","Continuous effect Allies deal +2 damage when attacking a tower.",
+"Spell","3","Berserker's Call","images/ListOfItemsFiles/3.png","Base Set","Rare","Red","","","","Unknown","Axe","6 Mana","Unknown","Choose an allied red hero. It battles its enemy neighbors.",
+"Spell","55","Combat Training","images/ListOfItemsFiles/55.png","Base Set","Unknown","Red","","","","Unknown","Unknown","3 Mana","Unknown","Modify a hero with +2 Attack.",
+"Spell","53","Conflagration","images/ListOfItemsFiles/53.png","Base Set","Rare","Blue","","","","Unknown","Unknown","5 Mana","Unknown","Reactive ability Deal 2 damage to each enemy before the action phase.",
+"Spell","26","Coup de Grace","images/ListOfItemsFiles/26.png","Base Set","Unknown","Black","","","","Unknown","Phantom Assassin","6 Mana","Unknown","Condemn a hero. Discard a random card.",
+"Spell","27","Cunning Plan","images/ListOfItemsFiles/27.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","2 Mana","Unknown","Swap a unit with one of its allied neighbours. Draw a card.",
+"Spell","57","Day at the Track","images/ListOfItemsFiles/57.png","Base Set","Unknown","Black","","","","Unknown","Unknown","3 Mana","Unknown","Double your Gold.",
+"Spell","65","Defensive Stance","images/ListOfItemsFiles/65.png","Base Set","Unknown","Red","","","","Unknown","Unknown","2 Mana","Unknown","???",
+"Spell","52","Dimensional Portal","images/ListOfItemsFiles/52.png","Base Set","Common","Blue","","","","Unknown","Unknown","4 Mana","Unknown","Summon three Melee Creeps.",
+"Spell","98","Disciple of Nevermore","images/ListOfItemsFiles/98.png","Base Set","Common","Black","","","","Unknown","Unknown","3 Mana","Unknown","Summon a Disciple of Nevermore.",
+"Spell","66","Divine Purpose","images/ListOfItemsFiles/66.png","Base Set","Rare","Green","","","","Unknown","Unknown","7 Mana","Unknown","???",
+"Spell","68","Duel","images/ListOfItemsFiles/68.png","Base Set","Unknown","Red","","","","Unknown","Unknown","2 Mana","Unknown","???",
+"Spell","70","Eclipse","images/ListOfItemsFiles/70.png","Base Set","Unknown","Blue","","","","Unknown","Luna","6 Mana","Unknown","Repeat one time for each charge: Deal 3 piercing damage to a random enemy.",
+"Spell","71","Emissary of the Quorum","images/ListOfItemsFiles/71.png","Base Set","Unknown","Green","","","","Unknown","Unknown","8 Mana","Unknown","Summon a Emissary of the Quorum.",
+"Spell","51","Frostbite","images/ListOfItemsFiles/51.png","Base Set","Unknown","Blue","","","","Unknown","Crystal Maiden","3 Mana","Unknown","Deal 2 damage to a unit and disarm it this round.",
+"Spell","72","God's Strength","images/ListOfItemsFiles/72.png","Base Set","Unknown","Red","","","","Unknown","Unknown","6 Mana","Unknown","???",
+"Spell","102","Grand Melee","images/ListOfItemsFiles/102.png","Base Set","Rare","Red","","","","Unknown","Unknown","3 Mana","Unknown","Continuous effect If there is an allied red hero in this lane, all heroes have +2 Cleave.",
+"Spell","59","Grazing Shot","images/ListOfItemsFiles/59.png","Base Set","Unknown","Black","","","","Unknown","Unknown","1 Mana","Unknown","Deal 2 damage to a unit in any lane.",
+"Spell","101","Hand of God","images/ListOfItemsFiles/101.png","Base Set","Rare","Green","","","","Unknown","Chen","7 Mana","Unknown","Fully heal each ally. Give allies Damage Immunity this round.",
+"Spell","49","Mist of Avernus","images/ListOfItemsFiles/49.png","Base Set","Unknown","Green","","","","Unknown","Unknown","3 Mana","Unknown","??? ???",
+"Spell","25","New Orders","images/ListOfItemsFiles/25.png","Base Set","Unknown","Red","","","","Unknown","Unknown","1 Mana","Unknown","Choose an ally. Choose a combat target for it. ",
+"Spell","103","Payday","images/ListOfItemsFiles/103.png","Base Set","Common","Black","","","","Unknown","Unknown","3 Mana","Unknown","Double your gold.",
+"Spell","88","Ravenhook","images/ListOfItemsFiles/88.png","Base Set","Unknown","Black","","","","Unknown","Unknown","??? Mana","Unknown","Summon a Ravenhook.",
+"Spell","85","Rebel Decoy","images/ListOfItemsFiles/85.png","Base Set","Unknown","Green","","","","Unknown","Unknown","3 Mana","Unknown","Summon a Rebel Decoy.",
+"Spell","104","Red Mist Pillager","images/ListOfItemsFiles/104.png","Base Set","Uncommon","Red","","","","Unknown","Unknown","5 Mana","Unknown","Summon a Red Mist Pillager.",
+"Spell","84","Savage Wolf","images/ListOfItemsFiles/84.png","Base Set","Unknown","Green","","","","Unknown","Lycan","4 Mana","Unknown","Summon a Savage Wolf.",
+"Spell","76","Selemene's Favour","images/ListOfItemsFiles/76.png","Base Set","Unknown","Green","","","","Unknown","Unknown","4 Mana","Unknown","???",
+"Spell","82","Steam Cannon","images/ListOfItemsFiles/82.png","Base Set","Unknown","Black","","","","Unknown","Unknown","7 Mana","Unknown","???",
+"Spell","54","Take Aim","images/ListOfItemsFiles/54.png","Base Set","Unknown","Red","","","","Unknown","Unknown","1 Mana","Unknown","Give a red hero +4 Attack this round.",
+"Spell","78","Thunder God's Wrath","images/ListOfItemsFiles/78.png","Base Set","Common","Blue","","","","Unknown","Zeus","7 Mana","Unknown","Deal 4 piercing damage to each enemy hero in all lanes.",
+"Spell","99","Time of Triumph","images/ListOfItemsFiles/99.png","Base Set","Rare","Red","","","","Unknown","Unknown","8 Mana","Unknown","Modify allied heroes with +4 Attack, +4 Armor, +4 Health, +4 Cleave, +4 Realiate, and +4 Siege.",
+"Spell","56","Trebuchets","images/ListOfItemsFiles/56.png","Base Set","Unknown","Black","","","","Unknown","Unknown","1 Mana","Unknown","Reactive ability Deal 2 piercing damage to the enemy tower before the action phase.",
+"Spell","44","Truth to Power","images/ListOfItemsFiles/44.png","Base Set","Unknown","Green","","","","Unknown","Rix","5 Mana","Unknown","Silence a unit this round.",
+"Spell","81","Untested Grunt","images/ListOfItemsFiles/81.png","Base Set","Unknown","Black","","","","Unknown","Unknown","2 Mana","Unknown","Summon an Untested Grunt.",
+"Spell","28","Ventriloquy","images/ListOfItemsFiles/28.png","Base Set","Unknown","Blue","","","","Unknown","Unknown","1 Mana","Unknown","Choose a unit. It taunts.",
+"Spell","8","Viscous Nasal Goo","images/ListOfItemsFiles/8.png","Base Set","Unknown","Red","","","","Unknown","Bristleback","4 Mana","Unknown","Modify a unit with -2 Armor.",
+"Item","4","Apotheosis Blade","images/ListOfItemsFiles/4.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","25 Gold","Unknown","Equipped hero has +8 Attack and +4 Siege. Condemn units equipped hero deals battle damage to.",
+"Item","89","Assassin's Veil","images/ListOfItemsFiles/89.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","6 Gold","Unknown","Equipped hero has +4 Health.",
+"Item","64","Blade of the Vigil","images/ListOfItemsFiles/64.png","Unknown","Common","Unknown","","","","Unknown","Unknown","??? Gold","Unknown","Equipped hero has +2 Attack and +2 Cleave.",
+"Item","37","Blink Dagger","images/ListOfItemsFiles/37.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","7 Gold","Unknown","Passive Equipped hero has +2 attack. Active Move equipped hero to another lane.",
+"Item","32","Fountain Flask","images/ListOfItemsFiles/32.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","4 Gold","Unknown","Fully heal a unit.",
+"Item","36","Golden Ticket","images/ListOfItemsFiles/36.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","7 Gold","Unknown","Get a random item from the Secret Shop.",
+"Item","29","Healing Salve","images/ListOfItemsFiles/29.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","3 Gold","Unknown","Heal a unit 6.",
+"Item","40","Hero’s Cape","images/ListOfItemsFiles/40.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","15 Gold","Unknown","Equipped hero has +16 health.",
+"Item","42","Horn of the Alpha","images/ListOfItemsFiles/42.png","Unknown","Rare","Unknown","","","","Unknown","Unknown","25 Gold","Unknown","Passive Equipped hero has +4 health.",
+"Item","35","Keenfolk Musket","images/ListOfItemsFiles/35.png","Unknown","Common","Unknown","","","","Unknown","Unknown","7 Gold","Unknown","Equipped hero has +2 attack.",
+"Item","38","Keenfolk Plate","images/ListOfItemsFiles/38.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","8 Gold","Unknown","Equipped hero has +1 armor. Equipped hero has +1 armor for each of its attackers.",
+"Item","30","Leather Armor","images/ListOfItemsFiles/30.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","3 Gold","Unknown","Equipped hero has +1 armor.",
+"Item","7","Phase Boots","images/ListOfItemsFiles/7.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","6 Gold","Unknown","Passive Equipped hero has +4 health Active Swap equipped hero with another ally.",
+"Item","33","Potion of Knowledge","images/ListOfItemsFiles/33.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","5 Gold","Unknown","Draw a card.",
+"Item","39","Red Mist Maul","images/ListOfItemsFiles/39.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","10 Gold","Unknown","Equipped hero has +2 attack and +5 siege.",
+"Item","75","Ristul Emblem","images/ListOfItemsFiles/75.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","??? Gold","Unknown","Equipped hero has +4 Health and -2 Armor. The unit blocking equipped hero has -2 Armor.",
+"Item","46","Shield of Basilius","images/ListOfItemsFiles/46.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","8 Gold","Unknown","Equipped hero has +2 Armor. Equipped hero's allied neighbors have +1 Armor.",
+"Item","90","Shiva's Guard","images/ListOfItemsFiles/90.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","16 Gold","Unknown","Equipped hero has +2 Armor.",
+"Item","43","Shop Deed","images/ListOfItemsFiles/43.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","22 Gold","Unknown","Each item in your Secret Shop costs X less gold, where X is equal to its base costs.",
+"Item","2","Short Sword","images/ListOfItemsFiles/2.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","3 Gold","Unknown","Equipped hero has +2 Attack.",
+"Item","34","Stonehall Cloak","images/ListOfItemsFiles/34.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","5 Gold","Unknown","Equipped hero has +4 Health. Modify Stonehall Cloak with “Equipped hero has +2 Health” after the combat phase.",
+"Item","47","Stonehall Pike","images/ListOfItemsFiles/47.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","6 Gold","Unknown","Equipped hero has +2 Attack. Modify Stonehall Pike with ""Equipped hero has +1 Attack"" after the combat phase.",
+"Item","31","Town Portal Scroll","images/ListOfItemsFiles/31.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","3 Gold","Unknown","Return an allied hero to the fountain.",
+"Item","48","Traveler's Cloak","images/ListOfItemsFiles/48.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","3 Gold","Unknown","Equipped hero has +4 Health.",
+"Item","41","Vesture of the Tyrant","images/ListOfItemsFiles/41.png","Unknown","Unknown","Unknown","","","","Unknown","Unknown","19 Gold","Unknown","Equipped hero has +3 armor and rapid deployment. Your tower has +3 armor.",

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30/09/2018 8:02:40 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entities.Chdg4K2Items" table="chdg4_k2_items" catalog="artifact" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="title" type="string">
+            <column name="title" not-null="true" />
+        </property>
+        <property name="alias" type="string">
+            <column name="alias" />
+        </property>
+        <property name="catid" type="int">
+            <column name="catid" not-null="true" />
+        </property>
+        <property name="published" type="short">
+            <column name="published" not-null="true" />
+        </property>
+        <property name="introtext" type="string">
+            <column name="introtext" length="16777215" not-null="true" />
+        </property>
+        <property name="fulltext" type="string">
+            <column name="fulltext" length="16777215" not-null="true" />
+        </property>
+        <property name="video" type="string">
+            <column name="video" length="65535" />
+        </property>
+        <property name="gallery" type="string">
+            <column name="gallery" />
+        </property>
+        <property name="extraFields" type="string">
+            <column name="extra_fields" length="65535" />
+        </property>
+        <property name="extraFieldsSearch" type="string">
+            <column name="extra_fields_search" length="65535" not-null="true" />
+        </property>
+        <property name="created" type="timestamp">
+            <column name="created" length="26" not-null="true" />
+        </property>
+        <property name="createdBy" type="int">
+            <column name="created_by" not-null="true" />
+        </property>
+        <property name="createdByAlias" type="string">
+            <column name="created_by_alias" not-null="true" />
+        </property>
+        <property name="checkedOut" type="int">
+            <column name="checked_out" not-null="true" />
+        </property>
+        <property name="checkedOutTime" type="timestamp">
+            <column name="checked_out_time" length="26" not-null="true" />
+        </property>
+        <property name="modified" type="timestamp">
+            <column name="modified" length="26" not-null="true" />
+        </property>
+        <property name="modifiedBy" type="int">
+            <column name="modified_by" not-null="true" />
+        </property>
+        <property name="publishUp" type="timestamp">
+            <column name="publish_up" length="26" not-null="true" />
+        </property>
+        <property name="publishDown" type="timestamp">
+            <column name="publish_down" length="26" not-null="true" />
+        </property>
+        <property name="trash" type="short">
+            <column name="trash" not-null="true" />
+        </property>
+        <property name="access" type="int">
+            <column name="access" not-null="true" />
+        </property>
+        <property name="ordering" type="int">
+            <column name="ordering" not-null="true" />
+        </property>
+        <property name="featured" type="short">
+            <column name="featured" not-null="true" />
+        </property>
+        <property name="featuredOrdering" type="int">
+            <column name="featured_ordering" not-null="true" />
+        </property>
+        <property name="imageCaption" type="string">
+            <column name="image_caption" length="65535" not-null="true" />
+        </property>
+        <property name="imageCredits" type="string">
+            <column name="image_credits" not-null="true" />
+        </property>
+        <property name="videoCaption" type="string">
+            <column name="video_caption" length="65535" not-null="true" />
+        </property>
+        <property name="videoCredits" type="string">
+            <column name="video_credits" not-null="true" />
+        </property>
+        <property name="hits" type="int">
+            <column name="hits" not-null="true" />
+        </property>
+        <property name="params" type="string">
+            <column name="params" length="65535" not-null="true" />
+        </property>
+        <property name="metadesc" type="string">
+            <column name="metadesc" length="65535" not-null="true" />
+        </property>
+        <property name="metadata" type="string">
+            <column name="metadata" length="65535" not-null="true" />
+        </property>
+        <property name="metakey" type="string">
+            <column name="metakey" length="65535" not-null="true" />
+        </property>
+        <property name="plugins" type="string">
+            <column name="plugins" length="65535" not-null="true" />
+        </property>
+        <property name="language" type="string">
+            <column name="language" length="7" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
