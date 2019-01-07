@@ -27,11 +27,14 @@ public class CardDataMigrator {
             DbLoader.clearCardV2();
         }
         List<Chdg4ArtifactgameCard> cardList = DbLoader.getCardList();
-        List<CardObject> cardObjectList = FeedReader.loadCardInfo("01");
+        List<CardObject> cardObjectList = FeedReader.loadCardInfo("00");
         Map<String, String> skillMap = DbLoader.loadHeroSkillMap();
         Map<String, CardObject> cardObjectMap = convertToMap(cardObjectList);
         for (Chdg4ArtifactgameCard cardv1 : cardList) {
             String name = cardv1.getName();
+            if(name.startsWith("Far")) {
+                int a = 0;
+            }
             System.out.println("Migrating " + name + "...");
             if (!cardObjectMap.containsKey(name)) {
                 System.out.println(name + " is not found in feed definition.");
@@ -79,7 +82,7 @@ public class CardDataMigrator {
                                 System.out.println("Hero skill is not found: " + skill);
                             } else {
                                 String text = skillMap.get(skill);
-                                sb.append("<span title=\"" + text + "\">" + skill + "<skill>");
+                                sb.append("<span title=\"" + text + "\">" + skill + "</span>");
                             }
                         }
                         skillString = sb.toString();

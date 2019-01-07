@@ -23,7 +23,7 @@ public class DbLoader {
 //                    "jdbc:mysql://artifact.game/artifae7_artifact?useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
         static final String USER = "root";
-        static final String PASS = "root";
+        static final String PASS = "password";
         private static final String DB_URL =
                         "jdbc:mysql://localhost:9001/artifact?useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode" +
                                         "=false&serverTimezone=UTC";

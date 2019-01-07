@@ -4,6 +4,7 @@ public class CardV2 {
     private int id;
 
     public CardV2(int id, String name, String type, String subtype, String color, String rarity, String information, String miniImgUrl, String link) {
+        this.id = id;
         this.name = name;
         this.type = type;
         this.subtype = subtype;
