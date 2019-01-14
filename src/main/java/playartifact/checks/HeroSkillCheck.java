@@ -12,7 +12,7 @@ public class HeroSkillCheck {
 
 
     public static void main(String[] args) throws IOException {
-        List<CardObject> cardObjectList = FeedReader.loadCardInfo("01");
+        List<CardObject> cardObjectList = FeedReader.loadCardInfo("00");
         DbLoader.openConnection();
         Set<Integer> skillSet = DbLoader.getHeroSkillSet();
         for (CardObject cardObject : cardObjectList) {

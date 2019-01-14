@@ -70,8 +70,12 @@ public class CardDataMigrator {
                             "<img src=\"/images/icons/stat-health.png\" class=\"stat-icon\">%d" +
                             "%s<span class=\"stat-label\">Sig:</span>%s";
                     String skillsStr = cardv1.getSkillString();
-                    if(skillsStr == null)skillsStr="";
-                    String[] skillArr = skillsStr.split(",");
+                    String[] skillArr;
+                    if(skillsStr == null || skillsStr.equals("")) {
+                        skillArr = new String[]{};
+                    }else {
+                        skillArr = skillsStr.split(",");
+                    }
                     String skillString = "";
                     if (skillArr.length > 0) {
                         StringBuilder sb = new StringBuilder();
@@ -82,7 +86,7 @@ public class CardDataMigrator {
                                 System.out.println("Hero skill is not found: " + skill);
                             } else {
                                 String text = skillMap.get(skill);
-                                sb.append("<span title=\"" + text + "\">" + skill + "</span>");
+                                sb.append("<a href=\"" + "/hero-skills/" + BuffScraper.convertSef(skill) + "\" title=\"" + text + "\">" + skill + "</a>");
                             }
                         }
                         skillString = sb.toString();
