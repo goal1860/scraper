@@ -60,12 +60,13 @@ public class CardDataMigrator {
             int attack = cardv1.getAttack();
             int armor = cardv1.getArmor();
             int health = cardv1.getHealth();
-            String link = "heroes/" + BuffScraper.convertSef(name);
+            String link = "";
 
             CardV2 cardV2;
+            String informationTmpl = "";
             switch (type) {
                 case "Hero":
-                    String informationTmpl = "<img src=\"/images/icons/stat-attack.png\" class=\"stat-icon\">%d" +
+                    informationTmpl = "<img src=\"/images/icons/stat-attack.png\" class=\"stat-icon\">%d" +
                             "<img src=\"/images/icons/stat-armor.png\" class=\"stat-icon\">%d" +
                             "<img src=\"/images/icons/stat-health.png\" class=\"stat-icon\">%d" +
                             "%s<span class=\"stat-label\">Sig:</span>%s";
@@ -93,10 +94,48 @@ public class CardDataMigrator {
 
                     }
                     information = String.format(informationTmpl, attack, armor, health, skillString, signature);
-
+                    link = "heroes/" + BuffScraper.convertSef(name);
                     cardV2 = new CardV2(id, name, type, subType, color, rarity,information, "mini/"+BuffScraper.convertSef(name) + ".png", link);
                     DbLoader.saveCardV2(cardV2);
                     break;
+                case "Spell":
+                    int manaCost;
+                    String effect;
+                    switch (subType){
+                        case "Spell":
+                            informationTmpl = "Mana Cost: %d. %s";
+                            manaCost = cardv1.getMana();
+                            effect = cardv1.getEffect();
+
+                            information = String.format(informationTmpl, manaCost, effect);
+                            link = "spells/" + BuffScraper.convertSef(name);
+                            cardV2 = new CardV2(id, name, type, subType, color, rarity,information, "mini/"+BuffScraper.convertSef(name) + ".png", link);
+                            DbLoader.saveCardV2(cardV2);
+                            break;
+                        case "Creep":
+                            informationTmpl = "Mana cost: %d. %s. <img src=\"/images/icons/stat-attack.png\" class=\"stat-icon\">%d" +
+                                    "<img src=\"/images/icons/stat-armor.png\" class=\"stat-icon\">%d" +
+                                    "<img src=\"/images/icons/stat-health.png\" class=\"stat-icon\">%d";
+                            manaCost = cardv1.getMana();
+                            effect = cardv1.getEffect();
+                            information = String.format(informationTmpl, manaCost, effect, cardv1.getAttack(), cardv1.getArmor(), cardv1.getHealth());
+                            link = "spells/" + BuffScraper.convertSef(name);
+                            cardV2 = new CardV2(id, name, type, subType, color, rarity,information, "mini/"+BuffScraper.convertSef(name) + ".png", link);
+                            DbLoader.saveCardV2(cardV2);
+                            break;
+                        case "Improvement":
+                            informationTmpl = "Mana Cost: %d. %s";
+                            manaCost = cardv1.getMana();
+                            effect = cardv1.getEffect();
+
+                            information = String.format(informationTmpl, manaCost, effect);
+                            link = "spells/" + BuffScraper.convertSef(name);
+                            cardV2 = new CardV2(id, name, type, subType, color, rarity,information, "mini/"+BuffScraper.convertSef(name) + ".png", link);
+                            DbLoader.saveCardV2(cardV2);
+                            break;
+                        default:
+                            System.out.println("Type not recognized: " + subType);
+                    }
                 default:
                     System.out.println("Type not recognized: " + type);
             }
@@ -112,6 +151,7 @@ public class CardDataMigrator {
                     cardObject.getCard_type().equals("Hero") ||
                             cardObject.getCard_type().equals("Creep") ||
                             cardObject.getCard_type().equals("Spell") ||
+                            cardObject.getCard_type().equals("Improvement") ||
                             cardObject.getCard_type().equals("Item")) {
                 cardObjectMap.put(cardObject.getCard_name().getEnglish(), cardObject);
             }
